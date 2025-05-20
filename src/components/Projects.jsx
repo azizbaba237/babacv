@@ -10,7 +10,7 @@ const projects = [
     link: "https://e-shop-five-sigma.vercel.app/",
   },
   {
-    title: "Réseau Social",
+    title: "Application E-commerce",
     description:
       "Une application complète de e-commerce avec panier, paiement.",
     technologies: ["React", "Tailwind CSS"],
