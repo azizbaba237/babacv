@@ -4,18 +4,18 @@ const projects = [
   {
     title: "Application E-commerce",
     description:
-      "Une application complète de e-commerce avec panier, paiement et tableau de bord admin.",
-    technologies: ["React", "Node.js", "MongoDB", "Stripe"],
+      "Une application complète de e-commerce avec panier, paiement.",
+    technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
     image: "ecommerce.jpg",
-    link: "#",
+    link: "https://e-shop-five-sigma.vercel.app/",
   },
   {
     title: "Réseau Social",
     description:
-      "Un réseau social avec authentification, publications et commentaires.",
-    technologies: ["React", "Firebase", "Tailwind CSS"],
+      "Une application complète de e-commerce avec panier, paiement.",
+    technologies: ["React", "Tailwind CSS"],
     image: "social.jpg",
-    link: "#",
+    link: "https://e-commerce-plum-rho.vercel.app/",
   },
   {
     title: "Application Météo",
