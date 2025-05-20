@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styles de base */
+body {
+  @apply bg-light text-dark dark:bg-dark dark:text-light transition-colors duration-300;
+}
+
+/* Animation pour les sections */
+.section {
+  @apply py-16 px-4 md:px-8 lg:px-16;
+}
+
+/* Styles pour les boutons */
+.btn {
+  @apply px-6 py-3 rounded-lg font-medium transition-all duration-300;
+}
+
+.btn-primary {
+  @apply bg-primary text-white hover:bg-primary/90;
+}
+
+.btn-outline {
+  @apply border border-primary text-primary hover:bg-primary hover:text-white;
+}
