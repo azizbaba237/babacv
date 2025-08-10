@@ -1,21 +1,23 @@
 import React from "react";
+import capture from "../assets/capture.JPG";
+import gestfile from "../assets/gestfile.JPG";
 
 const projects = [
   {
     title: "Application E-commerce",
     description:
-      "Une application complète de e-commerce avec panier, paiement.",
-    technologies: ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-    image: "ecommerce.jpg",
-    link: "https://e-shop-five-sigma.vercel.app/",
+      "Une application complète de e-commerce, vente de parfum avec panier, paiement. etc",
+    technologies: ["Django", "MySql", "Tailwind CSS"],
+    image: capture,
+    link: "https://bertorm.pythonanywhere.com/",
   },
   {
-    title: "Application E-commerce",
+    title: "Application de Gestion de file d'attente",
     description:
-      "Une application complète de e-commerce avec panier, paiement.",
-    technologies: ["React", "Tailwind CSS"],
-    image: "social.jpg",
-    link: "https://e-commerce-plum-rho.vercel.app/",
+      "Une application de gestion des files d'attente pour dans une banque. ",
+    technologies: ["Django", "Tailwind CSS", "MySql"],
+    image: gestfile,
+    link: "https://gestfile.pythonanywhere.com/",
   },
   {
     title: "Application Météo",
@@ -43,7 +45,7 @@ const Projects = () => {
             >
               <div className="h-48 bg-gray-300 flex items-center justify-center">
                 {/* Remplacez par une image réelle */}
-                <span className="text-4xl">📱</span>
+                <img src={project.image} alt={project.title}/>
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-2">{project.title}</h3>
