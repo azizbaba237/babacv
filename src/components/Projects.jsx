@@ -14,16 +14,16 @@ const projects = [
   {
     title: "Application de Gestion de file d'attente",
     description:
-      "Une application de gestion des files d'attente pour dans une banque. ",
+      "Une application de gestion des files d'attente cas d'une banque. ",
     technologies: ["Django", "Tailwind CSS", "MySql"],
     image: gestfile,
     link: "https://gestfile.pythonanywhere.com/",
   },
   {
-    title: "Application Météo",
+    title: "Application de Gestion d'une Quincaillerie Moderne",
     description:
-      "Application météo utilisant une API pour afficher les prévisions.",
-    technologies: ["React", "API REST", "CSS"],
+      "Application de gestion d'une quincaillerie moderne, avec gestion des stocks, des ventes, des clients, des prestaions de services, etc.",
+    technologies: ["React", "API REST", "Tailwind CSS", "Node.js", "Django", "MySql"],
     image: "weather.jpg",
     link: "#",
   },
