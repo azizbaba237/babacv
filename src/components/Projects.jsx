@@ -1,6 +1,7 @@
 import React from "react";
 import capture from "../assets/capture.JPG";
 import gestfile from "../assets/gestfile.JPG";
+import omri from "../assets/omri.JPG";
 
 const projects = [
   {
@@ -24,8 +25,8 @@ const projects = [
     description:
       "Application de gestion d'une quincaillerie moderne, avec gestion des stocks, des ventes, des clients, des prestaions de services, etc.",
     technologies: ["React", "API REST", "Tailwind CSS", "Node.js", "Django", "MySql"],
-    image: "weather.jpg",
-    link: "#",
+    image: omri,
+    link: "https://omri-turkish-construction.vercel.app/",
   },
 ];
 

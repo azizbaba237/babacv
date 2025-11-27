@@ -14,7 +14,7 @@ const Hero = () => {
               Bonjour, je suis{" "}
               <span className="text-blue-400">ABDOUL AZIZ BABA</span>
             </h1>
-            <h2 className="text-2xl md:text-3xl mb-6">Développeur Junior</h2>
+            <h2 className="text-2xl md:text-3xl mb-6">Développeur</h2>
             <p className="text-lg mb-8">
               Je crée des applications web modernes et réactives avec les
               dernières technologies.

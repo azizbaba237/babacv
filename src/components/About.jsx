@@ -20,7 +20,7 @@ const About = () => {
 
           <div className="md:w-2/3 md:pl-12">
             <p className="text-lg mb-4">
-              Passionné par le développement web depuis plusieurs années, j'aime
+              Passionné par l'informatique plus precisément le développement, j'aime
               créer des applications performantes et esthétiques.
             </p>
             <p className="text-lg mb-4">
