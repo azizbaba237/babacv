@@ -34,7 +34,7 @@ const About = () => {
 
             <div className="flex flex-wrap gap-4">
               <div className="bg-white p-4 rounded-lg shadow-md">
-                <h3 className="font-bold text-blue-600">+3 ans</h3>
+                <h3 className="font-bold text-blue-600">+5 ans</h3>
                 <p>d'expérience</p>
               </div>
               <div className="bg-white p-4 rounded-lg shadow-md">
