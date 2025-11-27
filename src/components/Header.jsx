@@ -55,22 +55,22 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href="about" className="hover:text-blue-400">
+              <a href="#about" className="hover:text-blue-400">
                 À propos
               </a>
             </li>
             <li>
-              <a href="skills" className="hover:text-blue-400">
+              <a href="#skills" className="hover:text-blue-400">
                 Compétences
               </a>
             </li>
             <li>
-              <a href="projects" className="hover:text-blue-400">
+              <a href="#projects" className="hover:text-blue-400">
                 Projets
               </a>
             </li>
             <li>
-              <a href="contact" className="hover:text-blue-400">
+              <a href="#contact" className="hover:text-blue-400">
                 Contact
               </a>
             </li>
