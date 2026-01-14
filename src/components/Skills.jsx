@@ -5,7 +5,7 @@ const skillCategories = {
     { name: "HTML", level: 90 },
     { name: "CSS", level: 85 },
     { name: "JavaScript", level: 80 },
-    { name: "React", level: 75 },
+    { name: "React Js", level: 75 },
     { name: "Tailwind CSS", level: 80 },
     { name: "Conception web adaptative", level: 80 },
   ],
@@ -20,7 +20,7 @@ const skillCategories = {
 
   "Architecture & Concepts": [
     { name: "Programmation orientée objet", level: 75 },
-    { name: "Modèles de conception logicielle", level: 75 },
+    { name: "Modèles de conception logiciel", level: 75 },
     { name: "Intégration d'API", level: 75 },
   ],
 
@@ -34,6 +34,7 @@ const skillCategories = {
   Outils: [
     { name: "Git", level: 75 },
     { name: "Github", level: 75 },
+    { name: "Docker ", level: 55 },
   ],
 };
 
