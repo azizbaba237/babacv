@@ -1,9 +1,18 @@
 import React from "react";
 import capture from "../assets/capture.JPG";
 import gestfile from "../assets/gestfile.JPG";
+import pressing from "../assets/pressing.JPG";
 import omri from "../assets/omri.JPG";
 
 const projects = [
+  {
+    title: "Application de gestion de pressing",
+    description:
+      "Une application complète de gestion de pressing, depots de vêtements, lessive, suivi, paiement, etc",
+    technologies: ["React js", "Django", "Python", "MySql", "Tailwind CSS"],
+    image: pressing,
+    link: "https://pressing-frontend.vercel.app/",
+  },
   {
     title: "Application E-commerce",
     description:
@@ -24,7 +33,14 @@ const projects = [
     title: "Application de Gestion d'une Quincaillerie Moderne",
     description:
       "Application de gestion d'une quincaillerie moderne, avec gestion des stocks, des ventes, des clients, des prestaions de services, etc.",
-    technologies: ["React", "API REST", "Tailwind CSS", "Node.js", "Django", "MySql"],
+    technologies: [
+      "React",
+      "API REST",
+      "Tailwind CSS",
+      "Node.js",
+      "Django",
+      "MySql",
+    ],
     image: omri,
     link: "https://omri-turkish-construction.vercel.app/",
   },
@@ -34,7 +50,7 @@ const Projects = () => {
   return (
     <section id="projects" className="py-20 bg-gray-100">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-dark text-center mb-12">
           Projets récents
         </h2>
 
@@ -46,10 +62,12 @@ const Projects = () => {
             >
               <div className="h-48 bg-gray-300 flex items-center justify-center">
                 {/* Remplacez par une image réelle */}
-                <img src={project.image} alt={project.title}/>
+                <img src={project.image} alt={project.title} />
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold mb-2">{project.title}</h3>
+                <h3 className="text-xl font-bold text-dark mb-2">
+                  {project.title}
+                </h3>
                 <p className="text-gray-600 mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech, i) => (

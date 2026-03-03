@@ -4,7 +4,7 @@ const About = () => {
   return (
     <section id="about" className="py-20 bg-gray-100">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-dark mb-12">
           À propos de moi
         </h2>
 
@@ -19,15 +19,15 @@ const About = () => {
           </div>
 
           <div className="md:w-2/3 md:pl-12">
-            <p className="text-lg mb-4">
+            <p className="text-lg mb-4 text-dark">
               Passionné par l'informatique plus precisément le développement, j'aime
               créer des applications performantes et esthétiques.
             </p>
-            <p className="text-lg mb-4">
+            <p className="text-lg mb-4 text-dark">
               Diplômé en Génie Logiciel, j'ai travaillé sur divers projets
               allant des sites vitrines aux applications complexes.
             </p>
-            <p className="text-lg mb-6">
+            <p className="text-lg mb-6 text-dark">
               En dehors du code, j'aime le voyage, ce qui m'aide à garder un
               esprit créatif et ouvert.
             </p>
@@ -35,15 +35,15 @@ const About = () => {
             <div className="flex flex-wrap gap-4">
               <div className="bg-white p-4 rounded-lg shadow-md">
                 <h3 className="font-bold text-blue-600">+5 ans</h3>
-                <p>d'expérience</p>
+                <p className="text-dark">d'expérience</p>
               </div>
               <div className="bg-white p-4 rounded-lg shadow-md">
                 <h3 className="font-bold text-blue-600">Quelques projets</h3>
-                <p>réalisés</p>
+                <p className="text-dark">réalisés</p>
               </div>
               <div className="bg-white p-4 rounded-lg shadow-md">
                 <h3 className="font-bold text-blue-600">Full Stack</h3>
-                <p>spécialisation</p>
+                <p className="text-dark">spécialisation</p>
               </div>
             </div>
           </div>
