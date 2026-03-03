@@ -8,7 +8,7 @@ const projects = [
   {
     title: "Application de gestion de pressing",
     description:
-      "Une application complète de gestion de pressing, depots de vêtements, lessive, suivi, paiement, etc",
+      "Une application web complète de gestion de pressing, depots de vêtements, lessive, suivi, paiement, etc",
     technologies: ["React js", "Django", "Python", "MySql", "Tailwind CSS"],
     image: pressing,
     link: "https://pressing-frontend.vercel.app/",
